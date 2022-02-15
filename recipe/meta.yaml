@@ -1,5 +1,5 @@
 {% set name = "evojax" %}
-{% set version = "0.1.0.post7" %}
+{% set version = "0.1.0.post8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/evojax-{{ version }}.tar.gz
-  sha256: 739c4dc93f87573b4b0c89219899838a11cc2951365124fdcd74da3c8e8508c3
+  sha256: 008cdbf7631f74d0032ab115c7b6aba0e27045c167b2b94652c7cd6bc35574cd
   patches:
     - remove_opencv.patch
 
