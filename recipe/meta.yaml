@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/evojax-{{ version }}.tar.gz
   sha256: 008cdbf7631f74d0032ab115c7b6aba0e27045c167b2b94652c7cd6bc35574cd
-  patches:
-    - remove_opencv.patch
 
 build:
   noarch: python
