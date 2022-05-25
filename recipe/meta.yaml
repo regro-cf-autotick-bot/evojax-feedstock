@@ -1,5 +1,5 @@
 {% set name = "evojax" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/evojax-{{ version }}.tar.gz
-  sha256: 907de70df1de76fc796ad13a7f1be4950f14a809e5c888721d0d1f860701d4df
+  sha256: ffca7517afd6e9abe5bcfef3f9b9473c197bf7b0fbe568aa35f3a86481bf1b08
 
 build:
   noarch: python
