@@ -25,6 +25,7 @@ requirements:
     - jaxlib >=0.1.65
     - pillow
     - python >=3.6
+    - pyyaml
 
 test:
   imports:
